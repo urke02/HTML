@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PROBA</title>
+        <style>
+            p {background-color: rgba(207, 238, 50, 0.8); border: 6px solid brown; padding: 30px; margin: 50px;}
+            a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(240, 142, 3);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(149, 9, 125);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgb(255, 0, 0);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+th, td {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+table {
+  border-spacing: 10px;
+}
+td:nth-child(even), th:nth-child(even) {
+  background-color: #D6EEEE;
+}
+
+.city{
+  background-color: rgb(94, 3, 221);
+  color:rgb(38, 122, 34);
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+
+.note {
+  font-size: 120%;
+  color: red;
+}
+    </style>
+    </head>
+
+    <body style="background-color:lightblue;">
+
+        <h1 style="text-align:center;font-size:80px;font-family:Verdana;color: white; background-color: darkblue;">Prvi naslov</h1>
+        <h2>Drugi naslov</h2>
+        <h3>Treci naslov</h3>
+        <h4>Certvrti naslov</h4>
+        <h5>Peti naslov</h5>
+        <h6>Sesti naslov</h6>
+        <p style="background-color: darkmagenta;">Ovo je neki tekst unutar paragrafa i posluzice samo kao primer.</p>
+        
+        Dodajemo link:
+        <a href="https://www.temu.com/">Klikni ovde da posetis Temu</a>
+        <br>
+        <img src="w3school.png" alt="W3Schools.com" width="104" height="142">
+        <br>
+        PRIMER:
+        <p>Ovo je paragraf <br> sa break</p>
+        ----------------<br>
+        ovo je tekst koji <br> sadrzi break
+        
+        <p style="color:blue;">Ovo je paragraf plavom bojom.</p>
+        <p title="Ovo je title ovog paragrafa">Ako stavimo mis na tekst ispisace nam TITLE.</p>
+        <p title="Ime: Uros, Prezime: Tomic, Godine: 22">Podaci o osobi</p>
+
+
+        <h1 style="font-size:60px;">Naslov velicine 60px</h1>
+
+        <p>ovo
+            je
+            paragraf
+            i on
+            ignorise
+            kako si 
+            sta
+            pisao
+        </p>
+        <hr>
+        ovo nije paragraf
+        i on takodje
+        ignorise
+        kako si sta
+        pisao
+
+        <pre>Ako koristimo pre on      zadrzava     razmake
+            kao i 
+            svaki prelom
+            linije
+        </pre>
+
+        <b>boldovan tekst</b><br>
+        <strong>vazan tekst</strong><br>
+        <i>italik tekst</i><br>
+        <em>emphasized</em><br>
+        <mark>markirani tekst</mark><br>
+        <small>mali tekst</small><br>
+        <del>deleted tekst</del><br>
+        <ins>inserted text</ins><br>
+        A<sub>subscripted tekst</sub><br>
+        A<sup>superscripted tekst</sup><br>
+        <blockquote cite="http://www.worldwildlife.org/who/index.html">
+        For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization, WWF works in nearly 100 countries. At every level, we collaborate with people around the world to develop and deliver innovative solutions that protect communities, wildlife, and the places in which they live.
+        </blockquote>
+        <p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+
+        <p>Dakle <abbr title="Tekst koji ispisuje kada stavimo mis na vidljivi deo teksta">KOJI</abbr> tekst ser krije iza?</p>
+        <address>
+        Napisao Uros Tomic.<br>
+        Poseti nas na:<br>
+        Example.com<br>
+        Bzvz ulica, 24<br>
+        Srbija
+        </address>
+
+        <bdo dir="rtl">Tekst ce biti napisan sa desne na levo</bdo>
+
+        <!--Ovo je komentar i nece se prikazati na sajtu-->
+
+        <p  style="color:#ff0000">obican tekst prikazan crvenom bojom</p>
+
+        <a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>
+
+    <h2>Absolute URLs</h2>
+    <a href="https://www.w3.org/">W3C</a>
+    <a href="https://www.google.com/">Google</a>
+
+    <h2>Relative URLs</h2>
+    <a href="html_images.asp">HTML Images</a>
+    <a href="/css/default.asp">CSS Tutorial</a><br>
+
+    <a href="mailto:someone@example.com">Send email</a> mozemo slati mejl preko linka <br>
+    <button onclick="document.location='default.asp'">HTML Tutorial</button><br>
+    
+    <a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a><br>
+    <a href="https://www.facebook.com" title="Go to Facebook">Facebook</a><br>
+    <a href="https://www.youtube.com">YouTube</a><br>
+    <a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a><br>
+
+    <img src="rotvajler.jpg" alt="Slika rotvajlera ne moze biti ucitana"><br>
+    <p><img src="w3school.png" alt="Smiley face" style="float:right;width:42px;height:42px;">
+      Slika se nalazi na desnoj strani ekrana zbog komande float:right i nalazi se u sklopu paragrafa</p>
+
+      <table border="2px" style="width: 100%;">
+        <tr>
+          <th>Osoba 1</th>
+          <th style="width: 70%;">Osoba 2</th>
+          <th>Osoba 3</th>
+        </tr>
+        <tr>
+          <td>Uros</td>
+          <td>Jovana</td>
+          <td>Petar</td>
+        </tr>
+        <tr>
+          <td>Tomic</td>
+          <td>Bozic</td>
+          <td>Petrovic</td>
+        </tr>
+        <tr>
+          <td>22</td>
+          <td>22</td>
+          <td>22</td>
+        </tr>
+      </table>
+      <br>
+      <table>
+        <tr>
+          <th>Ime</th>
+          <th>Prezime</th>
+          <th>Godine</th>
+        </tr>
+        <tr>
+          <td>Uros</td>
+          <td>Tomic</td>
+          <td>22</td>
+        </tr>
+        <tr>
+          <td>Jovana</td>
+          <td>Bozic</td>
+          <td>22</td>
+        </tr>
+        <tr>
+          <td>Petar</td>
+          <td>Petrovic</td>
+          <td>22</td>
+        </tr>
+      </table>
+
+      <br>
+
+      <table border="3px" style="border-style: outset;">
+        <tr>
+          <th>/</th>
+          <th>Prva osoba</th>
+          <th>Druga osoba</th>
+        </tr>
+        <tr>
+          <th>Ime</th>
+          <td>Uros</td>
+          <td>Jovana</td>
+        </tr>
+        <tr>
+          <th>Prezime</th>
+          <td>Tomic</td>
+          <td>Bozic</td>
+        </tr>
+        <tr>
+          <th>Godine</th>
+          <td>22</td>
+          <td>22</td>
+        </tr>
+        <tr>
+          <th>Pol</th>
+          <td>muski</td>
+          <td>zenski</td>
+        </tr>
+      </table>
+
+      <br>
+
+      <ul>
+        <li>Prvi pojam u list</li>
+        <li>Drugi pojam u listi</li>
+        <li>Treci pojam u lsiti</li>
+      </ul>
+
+      <br>
+
+      <ol>
+        <li>Prvi pojam u listi</li>
+        <li>Drugi pojam u listi</li>
+        <li>Treci pojam u listi</li>
+      </ol>
+
+      <br>
+
+      <dl>
+        <dt>Kafa</dt>
+        <dd>- crni vruci napitak</dd>
+        <dt>Mleko</dt>
+        <dd>- belo hladno pice</dd>
+      </dl>
+
+      <br>
+
+      <dl>
+        <dt>Voda</dt>
+        <dd>- Sluzi kao pice</dd>
+        <dt>Hleb</dt>
+        <dd>- Sluzi kao hrana</dd>
+      </dl>
+
+      <br>
+
+      <p>Hello World</p>
+      <div>Hello World</div>
+      <span>Hello World</span><br>
+      Hello World <br><br><br><br>
+
+      Moje ime je <div>Uros Tomic</div> i imam 22 godine.<br><br>
+
+      <div>
+        <h2>Beograd</h2>
+        <p style="background-color: rgba(102, 107, 210, 0.8); border: 2px solid brown; padding: 0px; margin: 0px;">Beograd je glavni grad Republiek Srbije.</p>
+        <p style="background-color: rgba(76, 219, 36, 0.8); border: 2px solid brown; padding: 0px; margin: 0px;">Beograd ima oko 2 miliona stanovnika.</p>
+      </div>
+
+      <div class="city">
+        <h2>Pariz</h2>
+        <p>Pariz je glavni grad Francuske.</p>
+      </div>
+
+      <div class="city">
+        <h2>Madrid</h2>
+        <p>Madrid je glavni grad Spanije.</p>
+      </div>
+
+      <div class="city">
+        <h2>Rim</h2>
+        <p>Rim je glavni grad Italije.</p>
+      </div>
+
+      <h1>My <span class="note">IMPORTANT</span> heading</h1>
+      <p>My <span class="note">important</span> text</p>
+
+      <div class="city note">BZVZ PROBA</div>
+
+      
+    </body>
+</html>
